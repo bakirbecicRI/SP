@@ -1,0 +1,14 @@
+Napisati program koji ce iz file-a students.csv ucitati sve informacije o studentima, 
+te snimiti rang listu studenata po ocjenama iz predmeta u file ocjene.csv koji ce sadrzavati ime, prezime i ocjenu. Ocjena se racuna po slijedecem kriterijumu:
+- prvi i peti test 50% ocjene (50 bodova)
+- drugi test 20% (20 bodova)
+- treci i cetvrti 30% (30 bodova)
+Konacna ocjena se racuna prema bodovima:
+- 54-63 - sest(6)
+- 64-73 - sedam(7)
+i- 74-83 - osam(8)
+- 84-93 - devet(9)
+- 94-100 - deset(10)
+Za studente koji nisu polozili ispisati u koloni ocjena "nije polozio".
+Ukoliko je student na 3 testa imao manje od 50% ne moze poloziti predmet cak i ako ima vise od 54 boda. Za takve studente ispisati "*" u koloni ocjena. 
+Napomena: podijeliti deklaracije i definicije klasa u odredjene .hpp i .cpp file-ove.
